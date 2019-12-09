@@ -12,7 +12,7 @@ namespace Test_WAD_NguyenThao.Controllers
 {
     public class ExamsController : Controller
     {
-        private Test_WAD_NguyenThaoContext db = new Test_WAD_NguyenThaoContext();
+        private MyDBContext db = new MyDBContext();
 
         // GET: Exams
         public ActionResult Index()
